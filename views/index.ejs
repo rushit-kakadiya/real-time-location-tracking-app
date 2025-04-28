@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="rushit-kakadiya" />
+    <title>
+      Real-Time Location Tracking App | Node.js + Socket.IO + Leaflet
+    </title>
+    <meta
+      name="description"
+      content="A real-time location tracking app built with Node.js, Express, Socket.IO, and Leaflet.js. Track users live on a map with interactive features."
+    />
+    <meta property="og:title" content="Real-Time Location Tracking App" />
+    <meta
+      property="og:description"
+      content="Track and view users' live locations in real-time on an interactive map built with Node.js, Socket.IO, and Leaflet."
+    />
+    <meta name="twitter:title" content="Real-Time Location Tracking App" />
+    <meta
+      name="twitter:description"
+      content="A Node.js real-time tracking app using WebSockets and Leaflet.js. Live user location updates!"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="sidebar">
+        <h3>Online Users</h3>
+        <ol id="userList"></ol>
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

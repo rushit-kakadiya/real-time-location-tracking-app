@@ -1,0 +1,28 @@
+{
+  "name": "device-track-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "leaflet",
+    "location-tracking",
+    "geolocation",
+    "realtime-app",
+    "websocket",
+    "openstreetmap"
+  ],
+  "author": "rushit-kakadiya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
